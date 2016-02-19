@@ -53,7 +53,7 @@ function save_options() {
       newLinks.push(links[i]);
     }
   }
-  chrome.storage.sync.set({links: defaultLinks}, function() {
+  chrome.storage.sync.set({links: newLinks}, function() {
     alert("saved");
   });
 }
