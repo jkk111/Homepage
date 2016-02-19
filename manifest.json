@@ -1,0 +1,27 @@
+{
+  "name": "Minimalistic Homepage",
+  "version": "0.1",
+  "background": {
+    "persistent": false,
+    "scripts": [ "main.js", "clock.js", "options.js" ]
+  },
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
+  },
+  "description": "A port of a static Minimalistic page to a chrome newtab page",
+  "permissions": [
+    "tabs",
+    "storage",
+    "http://wordsmith.org/words/quote2.js"
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "favicon.ico",
+    "32": "favicon_32.ico",
+    "32": "favicon_128.ico"
+  },
+  "manifest_version": 2
+}

@@ -1,0 +1,38 @@
+body {
+    background: black;
+    margin: 4em;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Courier New, Courier, monospaced;
+}
+
+body, a {
+    color: #0a0;
+}
+
+a {
+    display: block;
+    font-weight: bold;
+    font-size: 2vmin;
+}
+
+#faq {
+    color: #aaa;
+}
+
+.text, .answer, .answer a {
+    color: #aaa;
+    font-size: 2vmin;
+}
+
+h1 {
+  font-size: 4vmin;
+}
+
+#options {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 4em;
+  width: 4em;
+  padding: 1em;
+  cursor: pointer;
+}
